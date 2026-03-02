@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "waterproofing_inspections",
-# 		"logo": "/assets/waterproofing_inspections/logo.png",
-# 		"title": "Waterproofing Inspections",
-# 		"route": "/waterproofing_inspections",
-# 		"has_permission": "waterproofing_inspections.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "waterproofing_inspections",
+		"logo": "/assets/waterproofing_inspections/images/waterproofing-inspections-icon.png",
+		"title": "Waterproofing Inspections",
+		"route": "/app/waterproofing-inspection",
+		"description": "Waterproofing inspection management",
+	}
+]
 
 # Includes in <head>
 # ------------------
