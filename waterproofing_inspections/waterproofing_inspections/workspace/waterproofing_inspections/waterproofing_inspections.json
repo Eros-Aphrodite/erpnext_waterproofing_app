@@ -1,0 +1,35 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h3\\\"><b>Waterproofing Inspections</b></span><br><span class=\\\"text-muted\\\">Manage waterproofing inspections</span>\",\"col\":12}},{\"id\":\"shortcut_waterproofing_inspection\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waterproofing Inspection\",\"col\":4}}]",
+ "creation": "2026-03-01 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "droplet",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "waterproofing_inspections",
+ "links": [],
+ "modified": "2026-03-01 00:00:00.000000",
+ "module": "Waterproofing Inspections",
+ "name": "waterproofing_inspections",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 0,
+ "shortcuts": [
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Waterproofing Inspection",
+   "link_to": "Waterproofing Inspection",
+   "type": "DocType"
+  }
+ ],
+ "title": "Waterproofing Inspections"
+}

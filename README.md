@@ -2,6 +2,21 @@
 
 Waterproofing inspection management
 
+### Goals
+
+- Provide a **Waterproofing Inspection form** for waterproofing project leads and inspection scope
+- Capture **contact details**, **phone**, **email**, **dates**, **responsible user**, **value**, and **tags**
+- Status: **New** → **In Progress** → **Done**
+- Attach a **primary image**
+- **Waterproofing tab** with:
+  - **Interior**: Checkbox, Area (Bathroom / Ensuite / Laundry), Length, Width, New Text
+  - **Exterior**: Checkbox, Area (Balcony / Stairs / Planter Box / Jacuzzi / Spa)
+
+### What's included
+
+- `Waterproofing Inspection` DocType with details and Waterproofing tab (Interior/Exterior sections)
+- Desk shortcut at `/app/waterproofing-inspection`
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:

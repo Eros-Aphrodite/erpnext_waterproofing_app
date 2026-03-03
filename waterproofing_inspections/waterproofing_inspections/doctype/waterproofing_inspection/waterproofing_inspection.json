@@ -1,0 +1,207 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "naming_series:",
+ "creation": "2026-03-03 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "column_contact",
+  "contact",
+  "phone",
+  "email",
+  "date",
+  "dates",
+  "notes",
+  "column_responsible",
+  "responsible",
+  "value",
+  "tags",
+  "status",
+  "image",
+  "tab_waterproofing",
+  "section_interior",
+  "interior",
+  "interior_area",
+  "length",
+  "width",
+  "new_text",
+  "section_exterior",
+  "exterior",
+  "exterior_area"
+ ],
+ "fields": [
+  {
+   "default": "WINS-.YYYY.-",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "WINS-.YYYY.-"
+  },
+  {
+   "fieldname": "column_contact",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "dates",
+   "fieldtype": "Date",
+   "label": "Dates"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes",
+   "description": "Type down your notes here..."
+  },
+  {
+   "fieldname": "column_responsible",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "responsible",
+   "fieldtype": "Link",
+   "label": "Responsible",
+   "options": "User"
+  },
+  {
+   "default": "0",
+   "fieldname": "value",
+   "fieldtype": "Currency",
+   "label": "Value"
+  },
+  {
+   "fieldname": "tags",
+   "fieldtype": "Data",
+   "label": "Tags"
+  },
+  {
+   "default": "New",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "New\nIn Progress\nDone"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "tab_waterproofing",
+   "fieldtype": "Tab Break",
+   "label": "Waterproofing"
+  },
+  {
+   "fieldname": "section_interior",
+   "fieldtype": "Section Break",
+   "label": "Interior"
+  },
+  {
+   "default": "0",
+   "fieldname": "interior",
+   "fieldtype": "Check",
+   "label": "Interior"
+  },
+  {
+   "fieldname": "interior_area",
+   "fieldtype": "Select",
+   "label": "Area",
+   "options": "Bathroom\nEnsuite\nLaundry"
+  },
+  {
+   "default": "0",
+   "fieldname": "length",
+   "fieldtype": "Float",
+   "label": "Length",
+   "precision": 2
+  },
+  {
+   "default": "0",
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "label": "Width",
+   "precision": 2
+  },
+  {
+   "fieldname": "new_text",
+   "fieldtype": "Data",
+   "label": "New Text"
+  },
+  {
+   "fieldname": "section_exterior",
+   "fieldtype": "Section Break",
+   "label": "Exterior"
+  },
+  {
+   "default": "0",
+   "fieldname": "exterior",
+   "fieldtype": "Check",
+   "label": "Exterior"
+  },
+  {
+   "fieldname": "exterior_area",
+   "fieldtype": "Select",
+   "label": "Area",
+   "options": "Balcony\nStairs\nPlanter Box\nJacuzzi\nSpa"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-03 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Waterproofing Inspections",
+ "name": "Waterproofing Inspection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "contact"
+}
