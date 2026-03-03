@@ -2,6 +2,10 @@
 
 Waterproofing inspection management
 
+### Purpose
+
+Use this app to **record waterproofing site inspections** in a consistent format, so you can quickly capture the job lead details and the waterproofing scope (interior vs exterior areas) and keep each inspection moving through a simple status workflow.
+
 ### Goals
 
 - Provide a **Waterproofing Inspection form** for waterproofing project leads and inspection scope
